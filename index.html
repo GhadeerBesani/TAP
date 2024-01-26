@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Responsive Webpage-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Load an icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            float: right;
+            margin: 50px;
+            margin-right: 50px;
+        }
+
+        .navbar a {
+            padding: 12px;
+            text-decoration: none;
+            color: #000;
+        }
+
+        .navbar a.active {
+            color: #D1884F;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+
+        }
+
+        .text {
+            font-size: 20px;
+            float: left;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .container {
+            display: grid;
+            column-gap: 50px;
+            grid-template-columns: 2fr 1fr;
+            align-items: center;
+            justify-content: center;
+            padding-top: 10%;
+            padding-left: 20%;
+            margin: 0 auto;
+
+        }
+
+        h3 {
+            color: #3BBADB;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .me {
+            color: #008AAA;
+            font-size: 50px;
+            font-weight: bold;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .hireme {
+            background-color: #008AAA;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 8px;
+            box-shadow: 0 8px 16px 0, 0 6px 20px 0 #3BBADB;
+            margin-right: 5px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .seemyproject {
+            background-color: white;
+            color: #008AAA;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 8px;
+            border: 2px solid #008AAA;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        #profile-image {
+            width: 100%;
+            height: auto;
+        }
+
+        @media (min-width: 768px) {
+            
+        }
+
+        @media (min-width: 1200px) {
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="navbar">
+        <nav style="justify-items: space-between;">
+            <a href="" class="active"><i class="fa fa-fw fa-home"></i>Home</a>
+            <a href=""><i class="fa fa-fw fa-user"></i>About Me</a>
+            <a href=""><i class="fa fa-phone"></i>Contact Me</a>
+        </nav>
+    </div>
+
+    <div class="container">
+        <article>
+            <header>
+                <h3> Welcome to my site</h3>
+            </header>
+            <div>
+                <p class="me">Hi, I'm Ghadeer,<br> a Software <span style="color: #D1884F">Developer.</span></p>
+            </div>
+            <p class="text">
+                I am a focused and talented PhD CS student currently pursuing my PhD degree from the University of
+                Jordan.
+            </p>
+        </article>
+        <img src="./pictures/face photo.png" id="profile-image">
+        <footer>
+            <button class="hireme" type="button">Hire me !</button>
+            <button class="seemyproject" type="button">See My Project</button>
+        </footer>
+    </div>
+</body>
+
+</html>
